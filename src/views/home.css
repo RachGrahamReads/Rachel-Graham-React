@@ -1,0 +1,478 @@
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/rough-horn-2146181_19202-1500h.jpg");
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-attachment: fixed;
+}
+.home-top-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-title-name-container {
+  width: 90%;
+  display: flex;
+  margin-top: 10%;
+  align-items: flex-start;
+  margin-bottom: 30%;
+  flex-direction: column;
+}
+.home-rachel-graham {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 400%;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.6em;
+}
+.home-young-adult-author {
+  color: #ffffff;
+  width: 100%;
+  font-size: 150%;
+  align-self: center;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  letter-spacing: 0.6em;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-white-banner {
+  gap: var(--dl-space-space-doubleunit);
+  width: 110VW;
+  display: flex;
+  padding: 5%;
+  max-width: auto;
+  transform: rotate(-1.5deg);
+  box-shadow: 5px 10px 10px 0px rgba(91, 91, 91, 0.6);
+  min-height: auto;
+  overflow-x: unset;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.91);
+}
+.home-white-banner-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  transform: rotate(1.5deg);
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  font-size: 300%;
+  max-width: 450px;
+  letter-spacing: 0.2em;
+}
+.home-coming-soon {
+  font-size: 150%;
+  letter-spacing: 0.2em;
+}
+.home-button {
+  margin-top: var(--dl-space-space-doubleunit);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.home-image {
+  width: 20%;
+  height: auto;
+  transform: rotate(1.5deg);
+  object-fit: cover;
+}
+.home-features {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.home-text05 {
+  color: #ffffff;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 48px;
+  letter-spacing: 0.2em;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home-subscribe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 64px;
+  justify-content: space-between;
+}
+.home-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 0.2em;
+}
+.home-text07 {
+  color: #ffffff;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.home-form {
+  width: 50%;
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.home-name {
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-500);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-email {
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-500);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.home-button1 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-black);
+}
+.home-button1:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.60);
+}
+.home-footer {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+.home-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-quadruple);
+  padding-right: var(--dl-space-space-quadruple);
+  justify-content: space-between;
+}
+.home-text08 {
+  width: 25%;
+  font-size: 100%;
+  align-self: center;
+  text-align: left;
+}
+.home-text11 {
+  font-size: 100%;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.home-icons-container {
+  gap: var(--dl-space-space-unit);
+  width: 25%;
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.home-link {
+  display: contents;
+}
+.home-icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.home-link1 {
+  display: contents;
+}
+.home-icon2 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.home-link2 {
+  display: contents;
+}
+.home-icon4 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1600px) {
+  .home-title-name-container {
+    margin-top: 9%;
+    margin-bottom: 27%;
+  }
+  .home-rachel-graham {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 400%;
+    align-self: center;
+    letter-spacing: 0.5em;
+  }
+}
+@media(max-width: 1200px) {
+  .home-rachel-graham {
+    font-size: 300%;
+  }
+  .home-text07 {
+    text-align: center;
+  }
+}
+@media(max-width: 991px) {
+  .home-title-name-container {
+    margin-top: 15%;
+    margin-bottom: 35%;
+  }
+  .home-white-banner {
+    gap: var(--dl-space-space-tripleunit);
+    flex-direction: row;
+    justify-content: center;
+  }
+  .home-white-banner-container {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  .home-text {
+    align-self: flex-start;
+    text-align: center;
+  }
+  .home-coming-soon {
+    align-self: flex-start;
+  }
+  .home-button {
+    align-self: flex-start;
+  }
+  .home-image {
+    width: 30%;
+  }
+  .home-text05 {
+    align-self: center;
+  }
+  .home-container1 {
+    align-items: stretch;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-form {
+    width: 70%;
+  }
+  .home-container3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .home-title-name-container {
+    margin-top: 10%;
+    align-items: center;
+    margin-bottom: 20%;
+  }
+  .home-rachel-graham {
+    font-size: 220%;
+  }
+  .home-young-adult-author {
+    font-size: 120%;
+  }
+  .home-white-banner {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .home-white-banner-container {
+    height: auto;
+  }
+  .home-text {
+    align-self: flex-start;
+  }
+  .home-coming-soon {
+    align-self: flex-start;
+  }
+  .home-image {
+    width: 30%;
+  }
+  .home-features {
+    display: none;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .home-container1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .home-subscribe {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .home-form {
+    width: 80%;
+  }
+  .home-footer {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .home-container3 {
+    align-self: center;
+    align-items: center;
+  }
+  .home-text08 {
+    width: auto;
+    font-size: 80%;
+  }
+  .home-text11 {
+    width: auto;
+    font-size: 80%;
+  }
+  .home-icons-container {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .home-container {
+    background-size: cover;
+    background-image: url("/rough-horn-2146181_19202-1500h.jpg");
+  }
+  .home-title-name-container {
+    margin-top: 20%;
+    padding-left: var(--dl-space-space-halfunit);
+    margin-bottom: 50%;
+  }
+  .home-rachel-graham {
+    font-size: 220%;
+    text-align: center;
+  }
+  .home-white-banner {
+    gap: var(--dl-space-space-doubleunit);
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .home-white-banner-container {
+    width: 80%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text {
+    align-self: center;
+  }
+  .home-coming-soon {
+    align-self: center;
+  }
+  .home-button {
+    align-self: center;
+  }
+  .home-image {
+    width: 40%;
+  }
+  .home-features {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .home-container1 {
+    grid-gap: var(--dl-space-space-halfunit);
+  }
+  .home-subscribe {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .home-text07 {
+    text-align: center;
+  }
+  .home-form {
+    width: 90%;
+  }
+  .home-button1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .home-container3 {
+    gap: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

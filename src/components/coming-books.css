@@ -1,0 +1,150 @@
+.coming-books-feature-card {
+  width: 30%;
+  height: auto;
+  display: flex;
+  max-width: auto;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  max-height: auto;
+  min-height: 100%;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: flex-start;
+  background-image: linear-gradient(180deg, rgba(189, 195, 199, 0) 36.00%,rgba(53, 57, 62, 0.84) 100.00%);
+}
+.coming-books-feature-card:hover {
+  transform: scale(1.02);
+}
+.coming-books-image {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.coming-books-text {
+  color: #ffffff;
+  font-size: 150%;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 0.2em;
+}
+.coming-books-text1 {
+  color: #ffffff;
+  padding: var(--dl-space-space-halfunit);
+  font-size: 100%;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: justify;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+.coming-books-root-class-name1 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name2 {
+  height: auto;
+  align-self: stretch;
+}
+
+
+
+.coming-books-root-class-name6 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name7 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name8 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name9 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name10 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name11 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name12 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name13 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name14 {
+  height: auto;
+  align-self: stretch;
+}
+.coming-books-root-class-name15 {
+  height: auto;
+  align-self: stretch;
+}
+@media(max-width: 1200px) {
+  .coming-books-feature-card {
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .coming-books-text1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .coming-books-text1 {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
+@media(max-width: 767px) {
+  .coming-books-feature-card {
+    width: 70%;
+    align-self: center;
+    min-height: auto;
+  }
+  .coming-books-image {
+    width: 60%;
+    align-self: center;
+  }
+  .coming-books-root-class-name2 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name8 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name10 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name11 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name13 {
+    min-height: auto;
+  }
+  .coming-books-root-class-name14 {
+    min-height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .coming-books-feature-card {
+    width: 90%;
+  }
+}

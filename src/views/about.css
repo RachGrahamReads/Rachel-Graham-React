@@ -1,0 +1,368 @@
+.about-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/rough-horn-2146181_19202-1500h.jpg");
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-attachment: fixed;
+}
+.about-top-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-title-name-container {
+  width: 90%;
+  display: flex;
+  margin-top: var(--dl-space-space-quadruple);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-quadruple);
+  flex-direction: column;
+}
+.about-check-out-our {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 150%;
+  align-self: center;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  letter-spacing: 0.6em;
+  text-transform: none;
+  text-decoration: none;
+}
+.about-latest-reads {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 400%;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+.about-white-banner {
+  gap: var(--dl-space-space-doubleunit);
+  width: 75%;
+  display: flex;
+  padding: 5%;
+  max-width: auto;
+  box-shadow: 5px 10px 10px 0px rgba(91, 91, 91, 0.6);
+  min-height: auto;
+  overflow-x: unset;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.91);
+}
+.about-white-banner-container {
+  gap: var(--dl-space-space-halfunit);
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: flex-start;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-text {
+  font-size: 300%;
+  letter-spacing: 0.2em;
+}
+.about-coming-soon {
+  font-size: 150%;
+  letter-spacing: 0.2em;
+}
+.about-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 64px;
+  justify-content: space-between;
+}
+.about-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+  letter-spacing: 0.2em;
+}
+.about-text2 {
+  color: #ffffff;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.about-form {
+  width: 50%;
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.about-name {
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-500);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.about-email {
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-500);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.about-button {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-black);
+}
+.about-button:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.60);
+}
+.about-footer {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.93);
+}
+.about-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-quadruple);
+  padding-right: var(--dl-space-space-quadruple);
+  justify-content: space-between;
+}
+.about-text3 {
+  width: 25%;
+  font-size: 100%;
+  align-self: center;
+  text-align: left;
+}
+.about-text6 {
+  font-size: 100%;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.about-icons-container {
+  gap: var(--dl-space-space-unit);
+  width: 25%;
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.about-link {
+  display: contents;
+}
+.about-icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.about-link1 {
+  display: contents;
+}
+.about-icon2 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.about-link2 {
+  display: contents;
+}
+.about-icon4 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1600px) {
+  .about-latest-reads {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 400%;
+    align-self: center;
+  }
+}
+@media(max-width: 1200px) {
+  .about-latest-reads {
+    font-size: 300%;
+  }
+  .about-text {
+    font-size: 200%;
+  }
+  .about-coming-soon {
+    font-size: 100%;
+  }
+  .about-text2 {
+    text-align: center;
+  }
+}
+@media(max-width: 991px) {
+  .about-white-banner {
+    gap: var(--dl-space-space-tripleunit);
+    flex-direction: row;
+    justify-content: center;
+  }
+  .about-coming-soon {
+    align-self: flex-start;
+  }
+  .about-form {
+    width: 70%;
+  }
+  .about-container2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .about-title-name-container {
+    margin-top: var(--dl-space-space-doubleunit);
+    align-items: center;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .about-check-out-our {
+    font-size: 120%;
+  }
+  .about-latest-reads {
+    font-size: 220%;
+  }
+  .about-white-banner {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .about-text {
+    font-size: 110%;
+  }
+  .about-coming-soon {
+    font-size: 80%;
+    align-self: flex-start;
+  }
+  .about-contact {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-text1 {
+    font-size: 220%;
+  }
+  .about-form {
+    width: 80%;
+  }
+  .about-footer {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .about-container2 {
+    align-self: center;
+    align-items: center;
+  }
+  .about-text3 {
+    width: auto;
+    font-size: 80%;
+  }
+  .about-text6 {
+    width: auto;
+    font-size: 80%;
+  }
+  .about-icons-container {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .about-container {
+    background-size: cover;
+    background-image: url("/rough-horn-2146181_19202-1500h.jpg");
+  }
+  .about-title-name-container {
+    padding-left: var(--dl-space-space-halfunit);
+  }
+  .about-latest-reads {
+    font-size: 220%;
+    text-align: center;
+  }
+  .about-white-banner {
+    gap: var(--dl-space-space-doubleunit);
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .about-coming-soon {
+    align-self: center;
+  }
+  .about-contact {
+    padding-top: 48px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 48px;
+  }
+  .about-text2 {
+    text-align: center;
+  }
+  .about-form {
+    width: 90%;
+  }
+  .about-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .about-container2 {
+    gap: var(--dl-space-space-unit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
